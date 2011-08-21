@@ -1,25 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,100,300,700,900&v2);
 
-/* ----------------- site constants -----------------
-
-Primary Color: 
-	hex:	
-	light:	 
-	dark: 	
-
-Secondary Color: 
-	hex:	
-	light:	 
-	dark: 	
-
-Tertiary Color: 
-	hex:	
-	light:	 
-	dark: 	
-	
-Link Color hex: 
-	
-
 /* ----------------- Page Layout --------------- */
 
 body {
@@ -34,7 +14,6 @@ body {
 #content {
 	background-color:#fff;
 	width:650px;
-/* 	padding:20px 30px; */
 	margin:1em auto 1ex auto;
 	border-radius: 10px; -moz-border-radius: 10px;
 	-moz-box-shadow: 0px 0px 20px #444; -webkit-box-shadow: 0px 0px 20px #444; box-shadow: 0px 0px 20px #444;
@@ -67,8 +46,7 @@ footer a{
 
 p{
 	line-height: 1.5em;
-	margin: 1em 2em;
-	font-size:125%;
+	margin: 1em;
 }
 
 /* ----------------- Forms ----------------- */
@@ -86,9 +64,7 @@ label{
 input, textarea{
 	font-family: 'Lato', sans-serif;
 }
-input{
-	width: 150px;
-}
+
 
 textarea{
 	width: 25em;
