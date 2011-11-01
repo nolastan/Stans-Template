@@ -11,6 +11,7 @@ define('PROJECT_DESCRIPTION', 'Project description');
 	<link rel="stylesheet" href="reset.css" />
 	<link rel="stylesheet" href="one-page.css" />
 	<title><?=PROJECT_NAME?></title>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script> -->
 </head>
 <body>
 <div id="content">
@@ -27,10 +28,24 @@ define('PROJECT_DESCRIPTION', 'Project description');
 
 <form>
 	<fieldset>
-		<label for="option-1">Option 1: </label>
-		<input type="text" name="option-1" />
-		<input type="submit" value="Save" />
+		<legend>Group of options</legend>
+		<div class="field">
+			<label for="option-1">Option 1 </label>
+			<input type="text" name="option-1" />
+			<span class="help">Some help text.</span>
+		</div>
+		<div class="field">
+			<label for="option-2">Option 2 </label>
+			<input type="text" name="option-2" />
+			<span class="help">Some help text.</span>
+		</div>
+		<div class="field">
+			<label for="option-3">Option 3 </label>
+			<input type="text" name="option-3" />
+			<span class="help">Some help text.</span>
+		</div>
 	</fieldset>
+		<input type="submit" value="Save" />
 </form>
 
 <p>Mauris pulvinar ante in tortor posuere vel auctor est rutrum. Nam suscipit sodales lectus, imperdiet sagittis quam auctor eu. Proin vitae erat quis mauris dictum pharetra. Proin adipiscing, libero ut lobortis fermentum, massa risus consectetur mauris, vestibulum sollicitudin tellus arcu at enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sit amet tellus suscipit lacus pharetra venenatis.</p> 
@@ -39,7 +54,7 @@ define('PROJECT_DESCRIPTION', 'Project description');
 
 </div>
 <footer>
-<p>Developed by <a href="<?=DEV_URL?>"><?=DEV_NAME?></a>.</p>
+<address>Developed by <a href="<?=DEV_URL?>"><?=DEV_NAME?></a>.</address>
 </footer>
 
 </body>
