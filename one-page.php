@@ -11,7 +11,8 @@ define('PROJECT_DESCRIPTION', 'Project description');
 	<link rel="stylesheet" href="reset.css" />
 	<link rel="stylesheet" href="one-page.css" />
 	<title><?=PROJECT_NAME?></title>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script> -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script> -->
+	<!-- <script src="script.js" type="text/javascript"></script> -->
 </head>
 <body>
 <div id="content">
